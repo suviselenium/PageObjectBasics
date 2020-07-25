@@ -17,7 +17,7 @@ public class ZohoAppPage  extends Page{
 	
 	public CRMHomePage gotoCRM(){
 		
-		click("crmlink_CSS");
+		click("crmlink_XPATH");
 		
 		return new CRMHomePage();
 	}
